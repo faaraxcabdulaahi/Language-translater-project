@@ -39,9 +39,8 @@ textarea,
 button {
   width: 100%;
   padding: 10px;
-  font-size: 17px;
+  font-size: 18px;
   border-radius: 7px;
-  font-weight: 550;
 }
 textarea {
   resize: none;

@@ -6,7 +6,7 @@
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/281/281776.png" type="image/x-icon">
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css" />
-    <title>Exercise 39 : Translater App</title>
+    <title>Translater App</title>
   </head>
   <body>
     <div class="container">
@@ -14,15 +14,13 @@
 
       <div class="form-group">
         <label for="from-language">From: </label>
-        <select name="from-language" id="from-language">
-            <option>somali</option>
+        <select name="from-language" id="from-language" class="from-language">
         </select>
       </div>
 
       <div class="form-group">
         <label for="to-language">To: </label>
-        <select name="to-language" id="to-language">
-            <option>english</option>
+        <select name="to-language" id="to-language" class="to-language">
         </select>
       </div>
       
@@ -33,13 +31,14 @@
           id="text-input"
           rows="5"
           placeholder="your message is here......."
+          class="text-input"
         ></textarea>
       </div>
 
-      <button id="translated-button">Translate</button>
+      <button  class="translated-button">Translate</button>
 
       <div class="result">
-        <div id="translated-text"></div>
+        <div id="translated-text" class="translated-text"></div>
       </div>
     </div>
   </body>
